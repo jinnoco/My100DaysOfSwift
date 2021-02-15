@@ -9,7 +9,7 @@ if firstCard == secondCard {
     print("different")
 }
 print(firstCard == secondCard ? "same" : "different")
-
+// 条件 ? true : false
 
 let num1 = 10
 let num2 = 20
