@@ -23,3 +23,16 @@ print(chessBoxing.olympicStatus)
 //print(basketball.name)
 
 
+struct Progress {
+    var task: String
+    var amount: Int {
+        didSet {
+            print("\(task) is \(amount)% comolete")
+        }
+    }
+}
+    
+var progress = Progress(task: "Loading", amount: 0)
+progress.amount = 50
+progress.amount = 100
+
