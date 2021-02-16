@@ -40,11 +40,20 @@ repeat {
     num2 += 1
 } while num2 <= 10
 
-print("-----------------------")
+print("------------------")
 
 for i in 1...10 {
     if i % 2 == 1 {
         continue
     }
     print(i)
+}
+
+print("------------------")
+
+for i in 1...10 {
+    for j in 1...10 {
+        let result = i * j
+        print(result)
+    }
 }

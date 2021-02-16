@@ -63,9 +63,8 @@ func travel_3(action: (String) -> String){
 travel_3 {(place:String) -> String in
     return "go to \(place) in my car"
 }
- ↓省略形
 */
-
+//↓省略形
 travel_3 { place in
     "go to \(place) in my car"
 }

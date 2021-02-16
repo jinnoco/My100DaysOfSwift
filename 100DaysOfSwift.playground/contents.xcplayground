@@ -6,5 +6,6 @@
         <page name='Loop'/>
         <page name='Error'/>
         <page name='Closure'/>
+        <page name='Struct'/>
     </pages>
 </playground>
