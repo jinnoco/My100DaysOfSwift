@@ -13,4 +13,15 @@ let weather = "sunny"
         print("enjoy your day")
     }
 
+print("--------------")
 
+let score = 85
+
+switch score {
+    case  0..<50:
+        print("failede")
+    case 50..<85:
+        print("OK")
+    default:
+        print("great")
+}
