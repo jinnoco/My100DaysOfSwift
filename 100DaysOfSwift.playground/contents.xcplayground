@@ -4,6 +4,7 @@
         <page name='TheTernaryOperator'/>
         <page name='Switch'/>
         <page name='Loop'/>
-        <page name='enum'/>
+        <page name='Error'/>
+        <page name='Closure'/>
     </pages>
 </playground>
