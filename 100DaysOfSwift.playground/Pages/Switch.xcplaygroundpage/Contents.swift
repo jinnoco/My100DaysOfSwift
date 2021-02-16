@@ -12,3 +12,5 @@ let weather = "sunny"
     default :
         print("enjoy your day")
     }
+
+

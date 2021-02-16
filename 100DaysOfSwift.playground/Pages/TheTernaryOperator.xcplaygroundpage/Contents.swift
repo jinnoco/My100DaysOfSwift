@@ -30,3 +30,4 @@ print(result)
 
 let result2 = num1 == num2 ? "same" : "different"
 print(result2)
+

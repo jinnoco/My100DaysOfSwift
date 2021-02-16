@@ -3,5 +3,6 @@
     <pages>
         <page name='TheTernaryOperator'/>
         <page name='Switch'/>
+        <page name='Loop'/>
     </pages>
 </playground>
