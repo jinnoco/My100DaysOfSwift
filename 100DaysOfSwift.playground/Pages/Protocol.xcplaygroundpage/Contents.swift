@@ -50,3 +50,42 @@ extension Int {
 
 let number2 = 34
 print(number2.isEven)
+
+print("-------")
+
+let arr = ["1", "2", "3", "4","4","5"]
+let set = Set(["a", "b", "c", "d"])
+
+extension Collection {
+    func summarise(){
+        print("There are \(count) in collection")
+        
+        for name in self {
+            print(name)
+        }
+    }
+    
+}
+
+print(arr.summarise())
+print(set.summarise())
+
+print("-----")
+
+protocol Identifiable2 {
+    var id: String {get set}
+    func identify()
+}
+
+extension Identifiable2 {
+    func identify(){
+        print("My id is \(id)")
+    }
+}
+
+struct User2: Identifiable2 {
+    var id: String
+}
+
+let nofprog = User2(id: "nofprog")
+print(nofprog.identify())
