@@ -7,5 +7,6 @@
         <page name='Error'/>
         <page name='Closure'/>
         <page name='Struct'/>
+        <page name='Class'/>
     </pages>
 </playground>

@@ -115,7 +115,7 @@ struct FamilyTree {
 //FamilyTree構造体をPerson3構造体内のプロパティとして使用
 struct Person3 {
     var name: String
-    lazy var familyTree = FamilyTree() //参照されるまで初期化されない
+    lazy var familyTree = FamilyTree() // lazy = 参照されるまで初期化されない
     init(name: String){
         self.name = name
     }
