@@ -39,4 +39,4 @@ num2 < 3   //true
 var str = "abc"
 str == "abc" //true
 str != "abc" //false
-str != "123" //true
+str != "123" //true 

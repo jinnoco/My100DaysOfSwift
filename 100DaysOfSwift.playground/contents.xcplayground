@@ -11,5 +11,6 @@
         <page name='Class'/>
         <page name='Protocol'/>
         <page name='Optional'/>
+        <page name='Function'/>
     </pages>
 </playground>
