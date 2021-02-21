@@ -108,7 +108,7 @@ if let result = try? checkPassword("password") {
     print("....")
 }
 
-try! checkPassword(<#T##password: String##String#>)
+try! checkPassword("Pass")
 /*
  参照
 https://youtu.be/r4U48jaTyVw
@@ -141,7 +141,7 @@ class Dog: Animal {
         print("!・＿・!")
     }
 }
-    
+
 let pets = [Fish(), Dog(), Fish(), Dog()]
 //型推論によりpetsをAnimalの配列にする
 
@@ -153,3 +153,68 @@ for pet in pets {
 }
 
 print(pets)
+
+
+func getHaterStatus(weather: String) -> String? {
+    if weather == "sunny" {
+        return nil
+    } else {
+        return "Hate"
+    }
+}
+
+var status = getHaterStatus(weather: "rain")
+
+
+func ageWithName(name: String) -> Int{ //Int型を返さなければならない
+    if name == "Taro" { return 20 }
+    if name == "Toshi" { return 19 }
+    if name == "Koki" { return 22 }
+    
+    return 0
+}
+
+func ageWithName2(name: String) -> Int? { //nilを返すことができる
+    if name == "Taro" { return 20 }
+    if name == "Toshi" { return 19 }
+    if name == "Koki" { return 22 }
+    
+    return nil
+}
+
+var age3 = ageWithName2(name: "Taro")
+if age3 == nil {
+    print("That's an error")
+} else {
+    print("He is \(age3) years old.")
+}
+//He is Optional(20) years old.
+
+func ageWithName3(age: Int) -> String? {
+    switch age {
+    case 20:
+        return "Taro"
+    case 19:
+        return "Toshi"
+    case 22:
+        return "Koki"
+    default:
+        return nil
+    }
+}
+
+let person = ageWithName3(age: 19)
+print("He is \(person)")
+//He is Optional("Toshi")
+
+//文字列が戻ってきたら大文字にし、それ以外は何もしない
+//nilが見つかると途中で停止する
+let person2 = ageWithName3(age: 22)?.uppercased()
+print("He is \(person2)")
+//He is Optional("KOKI")
+
+//nilを返したら代わりにunknownを入れる
+let person3 = ageWithName3(age: 11) ?? "unknown"
+print("He is \(person3)")
+//He is unknown
+
