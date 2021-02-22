@@ -12,5 +12,6 @@
         <page name='Protocol'/>
         <page name='Optional'/>
         <page name='Function'/>
+        <page name='Enumerations'/>
     </pages>
 </playground>
