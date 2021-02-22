@@ -1,6 +1,6 @@
 import UIKit
 
-//列挙型にすると、Swiftはこれらの5つの値のみを受け入れる
+//列挙型にすると、これらの5つの値のみを受け入れる
 //それ以外の場合はエラーが発生
 enum WeatherType {
     case sun
