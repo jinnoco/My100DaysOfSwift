@@ -100,3 +100,59 @@ for _ in 1...3 {
  Hello, Elick!
  Elick with deinit
  */
+
+
+/*
+ クラスと構造体の違い
+ ・クラスは自動で初期化されない
+ ・クラスを別のクラスに基づいて作ることができる（継承）
+ ・クラスのインスタンスはオブジェクトと呼ばれ、オブジェクトをコピーして値を変更すると元のオブジェクトも変更される
+ （一方を変更すると両方される）
+ */
+
+class Man {
+    var name: String
+    var age: Int
+    
+    init(name: String, age: Int){
+        self.name = name
+        self.age = age
+    }
+    
+    func speak(){
+        print("Hi.")
+    }
+}
+  
+var Taro = Man(name: "Taro", age: 20)
+    
+Taro.name //"Taro"
+Taro.age //20
+Taro.speak() //Hi.
+
+//Manクラスが実行する全ての機能を備えた新しいクラス
+class Student: Man {
+    //overrideで親クラスのメソッドを書き換えることができる
+    override func speak() {
+        print("I'm a student.")
+    }
+}
+
+var Toshi = Student(name: "Toshi", age: 19)
+Toshi.speak() //I'm a student.
+
+class Woker: Man {
+    var work: String
+    init(name: String, age: Int, work: String) {
+    self.work = work
+    super.init(name: name, age: age)
+    }
+    override func speak() {
+        print("I'm working.")
+    }
+}
+
+/*
+ 値が渡されて適切に変更される1つの共有状態が必要な場合はクラス
+ 1つのコピーが他のすべてに影響を与えることができない共有状態を回避したい場合は、構造体    
+ */
