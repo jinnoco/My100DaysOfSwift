@@ -156,3 +156,28 @@ class Woker: Man {
  値が渡されて適切に変更される1つの共有状態が必要な場合はクラス
  1つのコピーが他のすべてに影響を与えることができない共有状態を回避したい場合は、構造体    
  */
+
+
+
+class Album {
+    var name: String
+    init(name: String) {
+        self.name = name
+    }
+}
+
+class StudioAlbum: Album {
+    var studio: String
+    init(name: String, studio: String){
+        self.studio = studio
+        super.init(name: name)
+    }
+}
+
+class LiveAlbum: Album {
+    var location: String
+    init(name: String, location: String) {
+        self.location = location
+        super.init(name: name)
+    }
+}
