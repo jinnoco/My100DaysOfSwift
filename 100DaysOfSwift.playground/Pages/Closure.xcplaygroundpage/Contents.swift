@@ -97,3 +97,9 @@ let result = travel_5()
 result("Tokyo")
 
 let result_2 = travel_5()("Hokkaido")
+
+
+let vw = UIView()
+UIView.animate(withDuration: 0.5) {
+    vw.alpha = 0
+}

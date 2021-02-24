@@ -89,3 +89,33 @@ struct User2: Identifiable2 {
 
 let nofprog = User2(id: "nofprog")
 print(nofprog.identify())
+
+print("-------------")
+
+protocol Employee2 {
+    var name: String { get set }
+    var jobTitle: String { get set }
+    func doWork()
+}
+
+struct Executive: Employee2 {
+    var name: String = "jobs"
+    var jobTitle: String = "CEO"
+    func doWork() {
+        print("Working as CEO")
+    }
+}
+
+struct Designer: Employee2 {
+    var name: String = "Ive"
+    var jobTitle: String = "designer"
+    func doWork() {
+        print("design for product")
+    }
+}
+
+let staff: [Employee2] = [Executive(), Designer()]
+
+for person in staff {
+    person.doWork()
+}
