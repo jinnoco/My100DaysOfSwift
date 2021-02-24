@@ -164,6 +164,9 @@ class Album {
     init(name: String) {
         self.name = name
     }
+    func getperformance() -> String {
+        return "The album \(name) sold lots."
+    }
 }
 
 class StudioAlbum: Album {
@@ -172,6 +175,9 @@ class StudioAlbum: Album {
         self.studio = studio
         super.init(name: name)
     }
+    override func getperformance() -> String {
+        return "The album \(name) sold lots."
+}
 }
 
 class LiveAlbum: Album {
@@ -180,4 +186,44 @@ class LiveAlbum: Album {
         self.location = location
         super.init(name: name)
     }
+    
+    override func getperformance() -> String {
+        return "The album \(name) sold lots."
 }
+}
+
+var plus = StudioAlbum(name: "plus", studio: "Astudio")
+var multiply = StudioAlbum(name: "multiply", studio: "Bstudio")
+//var devide = LiveAlbum(name: "devide", location: "Clocation")
+
+var allAlbums: [Album] = [plus, multiply]
+
+for album in allAlbums {
+    print(album.getperformance())
+    if let studioAlbum = album as? StudioAlbum {
+        print(studioAlbum.studio)
+    }
+        
+//    } else if let liveAlbum = album as? LiveAlbum {
+//        print(liveAlbum.location)
+//    }
+}
+
+
+//The album plus sold lots.
+//The album multiply sold lots.
+//The album devide sold lots.
+
+
+for album in allAlbums as! [StudioAlbum] {
+    print(album.studio)
+}
+
+//for album in allAlbums as! [LiveAlbum] ?? [LiveAlbum]() {
+//    print(album.location)
+//}
+
+let number = 2
+let text = String(number)
+
+print(text)
