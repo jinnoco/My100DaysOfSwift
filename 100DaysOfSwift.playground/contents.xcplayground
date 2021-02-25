@@ -14,5 +14,6 @@
         <page name='Function'/>
         <page name='Enumerations'/>
         <page name='Properties '/>
+        <page name='Extensions '/>
     </pages>
 </playground>
