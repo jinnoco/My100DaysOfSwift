@@ -17,3 +17,21 @@ myInt //0 元の値は変更されていない
 
 
 
+
+extension Int {
+    func clamp(low: Int, high: Int) -> Int {
+        if self > high {
+            return high
+            //上限よりも高かったら上限を返す
+        } else if self < low {
+            return low
+            //下限よりも低かったら下限を返す
+        }
+        return self
+        //範囲内であればそのまま返す
+    }
+}
+
+let i: Int = 8
+print(i.clamp(low: 0, high: 6)) //6
+print(i.clamp(low: 0, high: 13)) //8
