@@ -103,3 +103,34 @@ let vw = UIView()
 UIView.animate(withDuration: 0.5) {
     vw.alpha = 0
 }
+
+class Singer{
+    func playSong(){
+        print("Let It Be")
+    }
+}
+
+func sing() -> () -> Void {
+    let Beatles = Singer()
+    let singing = { [weak Beatles] in
+        Beatles?.playSong()
+        return
+    }
+    return singing
+}
+
+let singFunc = sing()
+singFunc()
+
+//Strong reference cycles
+class House {
+    var ownerDetails: (() -> Void)?
+
+    func printDetails() {
+        print("This is a great house.")
+    }
+
+    deinit {
+        print("I'm being demolished!")
+    }
+}
