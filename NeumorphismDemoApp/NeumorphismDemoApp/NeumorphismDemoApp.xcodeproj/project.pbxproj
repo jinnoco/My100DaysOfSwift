@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33B9D099D8E01CB17770BCB0 /* Pods_NeumorphismDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FE5451DE4B42AF45FFFE25 /* Pods_NeumorphismDemoApp.framework */; };
+		3CD8F43A2675C5AC00DF694B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8F4392675C5AC00DF694B /* AppDelegate.swift */; };
+		3CD8F43C2675C5AC00DF694B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8F43B2675C5AC00DF694B /* SceneDelegate.swift */; };
+		3CD8F43E2675C5AC00DF694B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8F43D2675C5AC00DF694B /* ViewController.swift */; };
+		3CD8F4412675C5AC00DF694B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD8F43F2675C5AC00DF694B /* Main.storyboard */; };
+		3CD8F4432675C5BC00DF694B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD8F4422675C5BC00DF694B /* Assets.xcassets */; };
+		3CD8F4462675C5BC00DF694B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD8F4442675C5BC00DF694B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0645791E081BAED15A754B2D /* Pods-NeumorphismDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeumorphismDemoApp.release.xcconfig"; path = "Target Support Files/Pods-NeumorphismDemoApp/Pods-NeumorphismDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		3CD8F4362675C5AC00DF694B /* NeumorphismDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeumorphismDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD8F4392675C5AC00DF694B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CD8F43B2675C5AC00DF694B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3CD8F43D2675C5AC00DF694B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CD8F4402675C5AC00DF694B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CD8F4422675C5BC00DF694B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CD8F4452675C5BC00DF694B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CD8F4472675C5BC00DF694B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53FE5451DE4B42AF45FFFE25 /* Pods_NeumorphismDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeumorphismDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A843C5448FFC67B63C50E9 /* Pods-NeumorphismDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeumorphismDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-NeumorphismDemoApp/Pods-NeumorphismDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CD8F4332675C5AC00DF694B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B9D099D8E01CB17770BCB0 /* Pods_NeumorphismDemoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CD8F42D2675C5AC00DF694B = {
+			isa = PBXGroup;
+			children = (
+				3CD8F4382675C5AC00DF694B /* NeumorphismDemoApp */,
+				3CD8F4372675C5AC00DF694B /* Products */,
+				4BAC4F5C4908FB87A406C3A2 /* Pods */,
+				5CA79E86485E9CA36871A7B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CD8F4372675C5AC00DF694B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CD8F4362675C5AC00DF694B /* NeumorphismDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CD8F4382675C5AC00DF694B /* NeumorphismDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				3CD8F4392675C5AC00DF694B /* AppDelegate.swift */,
+				3CD8F43B2675C5AC00DF694B /* SceneDelegate.swift */,
+				3CD8F43D2675C5AC00DF694B /* ViewController.swift */,
+				3CD8F43F2675C5AC00DF694B /* Main.storyboard */,
+				3CD8F4422675C5BC00DF694B /* Assets.xcassets */,
+				3CD8F4442675C5BC00DF694B /* LaunchScreen.storyboard */,
+				3CD8F4472675C5BC00DF694B /* Info.plist */,
+			);
+			path = NeumorphismDemoApp;
+			sourceTree = "<group>";
+		};
+		4BAC4F5C4908FB87A406C3A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69A843C5448FFC67B63C50E9 /* Pods-NeumorphismDemoApp.debug.xcconfig */,
+				0645791E081BAED15A754B2D /* Pods-NeumorphismDemoApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5CA79E86485E9CA36871A7B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53FE5451DE4B42AF45FFFE25 /* Pods_NeumorphismDemoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CD8F4352675C5AC00DF694B /* NeumorphismDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CD8F44A2675C5BC00DF694B /* Build configuration list for PBXNativeTarget "NeumorphismDemoApp" */;
+			buildPhases = (
+				2F2B0351F0431F51474CA5DC /* [CP] Check Pods Manifest.lock */,
+				3CD8F4322675C5AC00DF694B /* Sources */,
+				3CD8F4332675C5AC00DF694B /* Frameworks */,
+				3CD8F4342675C5AC00DF694B /* Resources */,
+				3FD2D98BDFA1232DAF5A1624 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeumorphismDemoApp;
+			productName = NeumorphismDemoApp;
+			productReference = 3CD8F4362675C5AC00DF694B /* NeumorphismDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CD8F42E2675C5AC00DF694B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3CD8F4352675C5AC00DF694B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 3CD8F4312675C5AC00DF694B /* Build configuration list for PBXProject "NeumorphismDemoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CD8F42D2675C5AC00DF694B;
+			productRefGroup = 3CD8F4372675C5AC00DF694B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CD8F4352675C5AC00DF694B /* NeumorphismDemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CD8F4342675C5AC00DF694B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD8F4462675C5BC00DF694B /* LaunchScreen.storyboard in Resources */,
+				3CD8F4432675C5BC00DF694B /* Assets.xcassets in Resources */,
+				3CD8F4412675C5AC00DF694B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F2B0351F0431F51474CA5DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeumorphismDemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FD2D98BDFA1232DAF5A1624 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeumorphismDemoApp/Pods-NeumorphismDemoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeumorphismDemoApp/Pods-NeumorphismDemoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeumorphismDemoApp/Pods-NeumorphismDemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CD8F4322675C5AC00DF694B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD8F43E2675C5AC00DF694B /* ViewController.swift in Sources */,
+				3CD8F43A2675C5AC00DF694B /* AppDelegate.swift in Sources */,
+				3CD8F43C2675C5AC00DF694B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CD8F43F2675C5AC00DF694B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CD8F4402675C5AC00DF694B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CD8F4442675C5BC00DF694B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CD8F4452675C5BC00DF694B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CD8F4482675C5BC00DF694B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CD8F4492675C5BC00DF694B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CD8F44B2675C5BC00DF694B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69A843C5448FFC67B63C50E9 /* Pods-NeumorphismDemoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SV798S53Y;
+				INFOPLIST_FILE = NeumorphismDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jinapps.NeumorphismDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3CD8F44C2675C5BC00DF694B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0645791E081BAED15A754B2D /* Pods-NeumorphismDemoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SV798S53Y;
+				INFOPLIST_FILE = NeumorphismDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jinapps.NeumorphismDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CD8F4312675C5AC00DF694B /* Build configuration list for PBXProject "NeumorphismDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD8F4482675C5BC00DF694B /* Debug */,
+				3CD8F4492675C5BC00DF694B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CD8F44A2675C5BC00DF694B /* Build configuration list for PBXNativeTarget "NeumorphismDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD8F44B2675C5BC00DF694B /* Debug */,
+				3CD8F44C2675C5BC00DF694B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CD8F42E2675C5AC00DF694B /* Project object */;
+}
